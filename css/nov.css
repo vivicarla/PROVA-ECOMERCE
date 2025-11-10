@@ -1,0 +1,270 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f1fae1; /* fundo claro */
+    color: #345335; /* texto padrão */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #17a110; /* verde vibrante */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.logo span {
+    color: #d8f865; /* detalhe verde-claro */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f1fae1;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #d8f865;
+    border-bottom-color: #d8f865;
+    outline: none;
+}
+
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #f1fae1;
+    user-select: none;
+    transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+    color: #d8f865;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #d8f865;
+    color: #345335;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: 0 0 4px rgba(52, 83, 53, 0.4);
+}
+
+/* Formulário de cadastro */
+.products {
+    max-width: 700px;
+    margin: 3rem auto 5rem auto;
+    padding: 2.5rem 2.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+.products:hover {
+    box-shadow: 0 10px 25px rgba(52, 83, 53, 0.15);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #17751a;
+    margin-bottom: 0.25rem;
+}
+
+.products p.section-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #345335;
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    color: #345335;
+    font-size: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border: 2px solid #a6f59c;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #345335;
+    background-color: #f9fff4;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input::placeholder {
+    color: #88a080;
+    font-style: italic;
+}
+
+form input:focus {
+    border-color: #2dc535;
+    box-shadow: 0 0 8px rgba(45, 197, 53, 0.4);
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Campo CEP via JS */
+input#cep {
+    transition: border-color 0.3s ease;
+}
+
+/* Tabela estilizada */
+table {
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+}
+
+tr, th, td {
+    border: 1px solid #a6f59c;
+    text-align: left;
+    padding: 10px 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1fae1;
+}
+
+/* Botão principal */
+.btn-cadastrar {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    background-color: #5e7d32;
+    color: #f1fae1;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    user-select: none;
+}
+
+.btn-cadastrar:hover,
+.btn-cadastrar:focus {
+    background-color: #3e5605;
+    outline: none;
+    transform: translateY(-2px);
+}
+
+.btn-cadastrar:active {
+    transform: translateY(0);
+}
+
+/* Rodapé */
+footer {
+    background-color: #345335;
+    color: #f1fae1;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    user-select: none;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: #f1fae1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #d8f865;
+    outline: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .products {
+        margin: 2rem 1rem 3rem 1rem;
+        padding: 2rem 2rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
