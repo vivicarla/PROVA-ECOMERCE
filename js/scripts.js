@@ -3,69 +3,75 @@
 const products = [
     {
         id: 1,
-        name: "Kit Altar de Bruxaria",
-        price: 185.00,
-        image: "image/altardebruxaria.avif"
+        name: "Figura de brinquedo Nahida Lesser Lord Kusanali ",
+        price: 583.63,
+        image: "image/1.avif"
     },
     {
         id: 2,
-        name: "Pedra Vassoura de Bruxa",
-        price: 25.90,
-        image: "image/pedravassouradebruxa.avif"
+        name: "Chaveiro Nahida Genshin Impact Chibi",
+        price: 15.00,
+        image: "image/2.avif"
     },
     {
         id: 3,
-        name: "14 Cristais para o Equilíbrio Energético",
-        price: 19.90,
-        image: "image/pedras.avif"
+        name: "Genshin Impact Nahida Pelúcia Boneca Brinquedo",
+        price: 112.82,
+        image: "image/3.avif"
     },
     {
         id: 4,
-        name: "Punhal Wicca Athame Fenix",
-        price: 69.90,
-        image: "image/punhal.avif"
+        name: "Traje Nahida Genshin Impact Cosplay",
+        price: 206.24,
+        image: "image/4.avif"
     },
     {
         id: 5,
-        name: "Armário preto - Lilith",
-        price: 396.00   ,
-        image: "image/armariopreto.avif"
+        name: "Pinstant Genshin Impact Nahida",
+        price: 127.53   ,
+        image: "image/5.avif"
     },
     {
         id: 6,
-        name: "Perfume Devocional",
-        price: 117.99,
-        image: "image/perfume.avif"
+        name: "Conjunto De Roupa De Cama Game Nahida Genshin Impact",
+        price: 147.29,
+        image: "image/6.avif"
     },
     {
         id: 7,
-        name: "Vela Vibracional",
-        price: 86.90,
-        image: "image/vela.avif"
+        name: "Nahida Exclusive Weapon A Thousand Floating Dreams Replica Miniature",
+        price: 114.33,
+        image: "image/7.avif"
     },
     {
         id: 8,
-        name: "Toalha de Altar",
-        price: 122.99,
-        image: "image/toalha.avif"
+        name: "Nahida Wondrous Travels Series Q VERSION FIGURE",
+        price: 32.99,
+        image: "image/8.avif"
     },
     {
         id: 9,
-        name: "Origens Mágicas da Wicca",
-        price: 81.99,
-        image: "image/origens.avif"
+        name: "Suporte de acrílico GENSHIN Impact Character - Nahida",
+        price: 110.50,
+        image: "image/9.avif"
     },
     {
         id: 10,
-        name: "Chave dos Grandes Mistérios, Eliphas Levi",
-        price: 29.99,
-        image: "image/chavedosgrandesmisterios.avif"
+        name: "Nahida Slime Genshin Impact Inspired",
+        price: 149.58,
+        image: "image/10.avif"
     },
     {
         id: 11,
-        name: "Tarô Oráculo e Métodos - Vol. 3",
-        price: 103.00,
-        image: "image/taro.avif"
+        name: "Quadro Nahida - Genshin Impact",
+        price: 29.90,
+        image: "image/11.avif"
+    },
+    {
+        id: 12,
+        name: "Quadro Nahida Hand - Genshin Impact",
+        price: 29.90,
+        image: "image/12.avif"
     },
 ];
 
