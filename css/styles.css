@@ -53,7 +53,7 @@ tr:nth-child(even) {
 }
 
 .logo span {
-    color: #d8f865;
+    color: #75e740;
 }
 
 nav ul {
@@ -100,7 +100,7 @@ nav ul li a:hover {
 /* Banner principal */
 .hero {
     background-color: #97e287;
-    background-image: url(https://i.redd.it/just-got-lesser-lord-kusanali-v0-70llw1l3u7ic1.png?width=1920&format=png&auto=webp&s=21fd34c8b4452077c86a9a9a50e005788aa83317);
+    background-image: url(https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Namecard_Background_Nahida_Crescent.png/revision/latest?cb=20221102040701);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -116,10 +116,10 @@ nav ul li a:hover {
 }
 
 .hero p {
-    font-size: 1.2rem;
-    max-width: 600px;
+    font-size: 1.4rem;
+    max-width: 700px;
     margin: 0 auto 2rem;
-    color: #000000;
+    color: #124612;
 }
 
 .btn {
@@ -138,12 +138,65 @@ nav ul li a:hover {
     transform: translateY(-2px);
 }
 
+
+
 /* Seção de produtos */
+
+.fidelidade {
+    /* background-image: url(https://i.redd.it/just-got-lesser-lord-kusanali-v0-70llw1l3u7ic1.png?width=1920&format=png&auto=webp&s=21fd34c8b4452077c86a9a9a50e005788aa83317); */
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1fae1;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fidelidade-imagem{
+    max-width: 300px;
+    height: auto;
+    display: block;
+    align-items: left;
+}
+.fidelidade-coisas h2{
+    color: #288624;
+    margin-top: 0;
+    text-align: justify;
+    }
+    
+    .fidelidade-coisas p{
+        line-height: 1.6;
+        text-align: justify;
+    }
+    .sobre{
+        display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1fae1;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .sobre-imagem{
+        max-width: 300px;
+        height: auto;
+        display: block;
+        align-items: left;
+    }
+    .sobre-coisas{
+        line-height: 1.6;
+        text-align: justify;
+    }
+
 .products {
     max-width: 1200px;
     margin: 3rem auto;
     padding: 0 2rem;
 }
+
 
 .section-title {
     text-align: center;

@@ -19,9 +19,9 @@
                     <li><a href="index.html">Início</a></li>
                     <li><a href="index.html#products">Produtos</a></li>
                     <li><a href="#products">Novidades</a></li>
-                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="index.html#contato">Contato</a></li>
-                    <li><a href="index.html#fidelidade">Fidelidade</a></li>
+                    <li><a href="fidelidade.html">Fidelidade</a></li>
                     <li class="cart-icon" id="cart-icon">
                         Carrinho
                         <span class="cart-count" id="cart-count">0</span>
@@ -107,7 +107,21 @@
             </script>
         </form>
     </section>
-    
+      <!-- Carrinho lateral -->
+      <div class="overlay" id="overlay"></div>
+      <div class="cart-sidebar" id="cart-sidebar">
+          <div class="cart-header">
+              <h3>Seu Carrinho</h3>
+              <button class="close-cart" id="close-cart">&times;</button>
+          </div>
+          <div class="cart-items" id="cart-items">
+              <!-- Itens do carrinho serão inseridos aqui -->
+          </div>
+          <div class="cart-total">
+              Total: R$ <span id="cart-total">0.00</span>
+          </div>
+          <button class="checkout-btn">Finalizar Compra</button>
+      </div>
 
     <!-- Rodapé -->
     <footer>
